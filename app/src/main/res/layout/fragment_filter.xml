@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".fragments.Fragment_filter">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="Find your game"
+        android:textColor="#E18510"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/GenderChoose"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#676666"
+        android:backgroundTint="#515151"
+        android:shadowRadius="3"
+        android:text="Choose Genere "
+        android:textColor="#F4CB2D"
+        android:textColorHighlight="#6E6D6D"
+        android:textColorLink="#8C8B8B"
+        android:textCursorDrawable="@android:drawable/alert_light_frame"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/PlatformChoose"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#676666"
+        android:backgroundTint="#515151"
+        android:shadowRadius="3"
+        android:text="Platforms"
+        android:textColor="#F4CB2D"
+        android:textColorHighlight="#6E6D6D"
+        android:textColorLink="#8C8B8B"
+        android:textCursorDrawable="@android:drawable/alert_light_frame"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnStartDate"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#676666"
+        android:backgroundTint="#515151"
+        android:shadowRadius="3"
+        android:text="Start Date"
+        android:textColor="#F4CB2D"
+        android:textColorHighlight="#6E6D6D"
+        android:textColorLink="#8C8B8B"
+        android:textCursorDrawable="@android:drawable/alert_light_frame"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnEndDate"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#676666"
+        android:backgroundTint="#515151"
+        android:shadowRadius="3"
+        android:text="End Date"
+        android:textColor="#F4CB2D"
+        android:textColorHighlight="#6E6D6D"
+        android:textColorLink="#8C8B8B"
+        android:textCursorDrawable="@android:drawable/alert_light_frame"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/submitFiltersButton"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#676666"
+        android:backgroundTint="#515151"
+        android:shadowRadius="3"
+        android:text="Submit Filters"
+        android:textColor="#E18510"
+        android:textColorHighlight="#6E6D6D"
+        android:textColorLink="#8C8B8B"
+        android:textCursorDrawable="@android:drawable/alert_light_frame"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
